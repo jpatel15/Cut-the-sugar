@@ -287,7 +287,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				  	<div class="modal-dialog dialog_3">
 				    	<div class="modal-content">
 					      	<div class="modal-header">
-					        	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+					        	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">Ã—</span></button>
 					        	<h4 class="modal-title" id="myModalLabel"><div class="head_4">
 			                         <h3>Make An appointment Now</h3>
 									 <p>Cann't wait now, Goahead to book appointment</p>
@@ -303,7 +303,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<input type="submit" name="submit" onclick="myFunction()" value="Submit Now">
 								</form>
 							</div>
-							<!---start-date-piker---->
+						
 								<link rel="stylesheet" href="css/jquery-ui.css" />
 								<script src="js/jquery-ui.js"></script>
 									<script>
@@ -311,7 +311,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										$( "#datepicker" ).datepicker();
 										});
 									</script>
-							<!---/End-date-piker---->
+							
                      </div>
 		         </div>
 		     </div>
@@ -365,7 +365,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="copy-right-grids">
 				<div class="container">
 					<div class="copy-left">
-							<p class="footer-gd">© 2018 Cut The Sugar. All Rights Reserved<!--  | Design by <a href="https://Health Companion.com/" target="_blank">Health Companion </a> --></p>
+							<p class="footer-gd">Â© 2018 Cut The Sugar. All Rights Reserved<!--  | Design by <a href="https://Health Companion.com/" target="_blank">Health Companion </a> --></p>
 					</div>
 					
 					</div>
