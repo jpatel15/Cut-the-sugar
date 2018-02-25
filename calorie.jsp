@@ -1,19 +1,23 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+
 <!DOCTYPE html>
 <html>
 <head>
-<title>Cut The Sugar  | Home :: Cut The Sugar</title>
+<title>Health Companion  | Technologies :: Health Companion</title>
+<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 <link href="css/pignose.layerslider.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/gallery.css" rel="stylesheet" type="text/css" media="all" /> <!-- gallery css -->
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Health Companion Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-
+<!-- //for-mobile-apps -->
 <!--fonts-->
 <link href='//fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
@@ -42,7 +46,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				});
 			//]]>
 			</script>
-		
+		<!-- /js for news -->
 		
 		<!-- for smooth scrolling -->
 		<script type="text/javascript" src="js/move-top.js"></script>
@@ -56,137 +60,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		});
 		</script>
 		<!-- //for smooth scrolling -->
-	<!-- for easy-responsive-tabs -->	  
-		<link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css " />
-		<script src="js/easyResponsiveTabs.js"></script>
-		<script type="text/javascript">
-    $(document).ready(function() {
-        //Horizontal Tab
-        $('#parentHorizontalTab').easyResponsiveTabs({
-            type: 'default', //Types: default, vertical, accordion
-            width: 'auto', //auto or any width like 600px
-            fit: true, // 100% fit in a container
-            tabidentify: 'hor_1', // The tab groups identifier
-            activate: function(event) { // Callback function if tab is switched
-                var $tab = $(this);
-                var $info = $('#nested-tabInfo');
-                var $name = $('span', $info);
-                $name.text($tab.text());
-                $info.show();
-            }
-        });
-
-        // Child Tab
-        $('#ChildVerticalTab_1').easyResponsiveTabs({
-            type: 'vertical',
-            width: 'auto',
-            fit: true,
-            tabidentify: 'ver_1', 
-            activetab_bg: '#fff', 
-            inactive_bg: '#F5F5F5', 
-            active_border_color: '#c1c1c1', 
-            active_content_border_color: '#5AB1D0' 
-            });
-
-        //Vertical Tab
-        $('#parentVerticalTab').easyResponsiveTabs({
-            type: 'vertical', 
-            width: 'auto', 
-            fit: true, 
-            closed: 'accordion', 
-            tabidentify: 'hor_1', 
-            activate: function(event) { 
-                var $tab = $(this);
-                var $info = $('#nested-tabInfo2');
-                var $name = $('span', $info);
-                $name.text($tab.text());
-                $info.show();
-            }
-        });
-    });
-		</script>
-		<!-- //for smooth scrolling -->
-		<script language="Javascript" type="text/javascript">
-
-function cal_bmi(lbs, ins)
-{
-   h2 = ins * ins;
-   bmi = lbs/h2 * 703
-   f_bmi = Math.floor(bmi);
-   diff  = bmi - f_bmi;
-   diff = diff * 10;
-   diff = Math.round(diff);
-
-
-
-   if (diff == 10)    // Need to bump up the whole thing instead
-   {
-      f_bmi += 1;
-      diff   = 0;
-   }
-   bmi = f_bmi + "." + diff;
-   return bmi;
-}
-function compute(){
-   var f = self.document.forms[0];
-
-   w = f.wt.value;
-   v = f.htf.value;
-   u = f.hti.value;
-
-   // Format values for the BMI calculation
-
-   if (!chkw(u))
-   {
-     var ii = 0;
-     f.hti.value = 0;
-   } else
-   {
-     var it = f.hti.value*1;
-     var ii = parseInt(it);
-    }
-
-   var fi = parseInt(f.htf.value * 12);
-   var i =  parseInt(f.htf.value * 12) + f.hti.value*1.0;  // var i = fi + ii; aeisenberg@air.org: now the height in inches is correctly summed
-
-  // Do validation of remaining fields to check for existence of values
-
-   if (!chkw(v))
-   {
-     alert("Please enter a number for your height.");
-     f.htf.focus();
-     return;
-   }
-   if (!chkw(w))
-   {
-     alert("Please enter a number for your weight.");
-     f.wt.focus();
-     return;
-   }
-
-   // Perform the calculation
-
-   f.bmi.value = cal_bmi(w, i);
-   f.bmi.focus();
-}
-
-function chkw(w){
-   if (isNaN(parseInt(w))){
-      return false;
-   } else if (w < 0){
-  return false;
-  }
-  else{
-  return true;
-  }
-}
-
-  </script>    
-	
 </head>
 <body>
+	<!-- header -->
 	
-			
+				<script>
+				$('#myModal').modal('');
+				</script>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
 	<nav class="navbar nav_bottom" role="navigation">
 	 <div class="container">
 	 <!-- Brand and toggle get grouped for better mobile display -->
@@ -200,7 +84,7 @@ function chkw(w){
 		  <a class="navbar-brand" href="#"></a>
 	   </div> 
 	   <!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+			<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 			<ul class="nav navbar-nav nav_1">
 				<li class="current_page"><a href="index.jsp">Home</a></li>
 				<li class="dropdown">
@@ -212,57 +96,44 @@ function chkw(w){
 					<li><a href="history.jsp">Diabetes History</a></li>
 				  </ul>
 				</li>
-				<li><a href="treatment.jsp">Treatments and Medications</a></li>
 				<li class="dropdown">
-				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Excercises<span class="caret"></span></a>
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Food and Diabetes<span class="caret"></span></a>
 				  <ul class="dropdown-menu drop_menu" role="menu">
-					<li><a href="drugs.jsp">Oral Drugs</a></li>
+					<li><a href="diabeticfood.jsp">Diabetic Food</a></li>
+					<li><a href="calories.jsp">Calories in Food</a></li>
+					<li><a href="calculator.jsp">Calorie Calculator</a></li>
 					
 				  </ul>
 				</li>
-				<li class="cd-logo link link--takiri"><a href="book-a-test.jsp">Take Appointment</a></li>
-				  
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Treatment and Medications<span class="caret"></span></a>
+				  <ul class="dropdown-menu drop_menu" role="menu">
+					<li><a href="treatment.jsp">Treatments</a></li>
+					<li><a href="drugs.jsp">Oral Drugs</a></li>
+					<li><a href="book-a-test.jsp">book appointment</a></li>
+					<li><a href="book-a-test.jsp">Exercise</a></li>
+					</ul>
+					</li>
+					
+				<li><a href="login.jsp">Login</a></li>
+				
 				</ul>
 			
 		 </div><!-- /.navbar-collapse -->
 	   </div>
 	</nav>
 	<!-- //header -->
-	<div class="demo-2">	
-		<header class="logo">
-			<h1><a class="cd-logo link link--takiri" href="index.jsp">Cut The Sugar <span></span></a></h1>
-		</header>
-            <div id="slider" class="sl-slider-wrapper">
-
-				<div class="sl-slider">
-				
-					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
-						<div class="sl-slide-inner">
-							<div class="bg-img bg-img-1"></div>
-							<h3>Its not the end, its just diabetes.</h3>
-							<!-- <blockquote><p>The greatest wealth is health.</p><cite>...</cite></blockquote> -->
-						</div>
+	<section class="laboratory">
+			<div class="inner-banner demo-2 text-center">
+				<header class="logo">
+					<h1><a class="cd-logo link link--takiri" href="index.jsp">Cut The Sugar <span>is better than cure.</span></a></h1>
+				</header>
+				<div id="breadcrumb_wrapper">
+					<div class="container">		
+						<h2>Calories in food</h2>
+						
 					</div>
-					
-					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
-						<div class="sl-slide-inner">
-							<div class="bg-img bg-img-2"></div>
-							</div>
-					</div>
-					
-					
-				</div><!-- /sl-slider -->
-
-				<nav id="nav-dots" class="nav-dots">
-					<span class="nav-dot-current"></span>
-					<span></span>
-					
-				</nav>
-
-			</div><!-- /slider-wrapper -->
-
-        </div>
-        	
+				</div>
 				         <table summary="This table is used for layout purposes only." style="margin:auto;" class="bmibkg" width="520"> 
 		
 						
