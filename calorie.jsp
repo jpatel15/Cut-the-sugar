@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> Technologies</title>
+<title></title>
 <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 <link href="css/pignose.layerslider.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
