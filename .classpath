@@ -9,8 +9,8 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="/sashon"/>
+	<classpathentry kind="src" path="/cut"/>
 	<classpathentry kind="src" path="/WebServices"/>
-	<classpathentry kind="src" path="/scantocart"/>
+	<classpathentry kind="src" path="/cut"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
