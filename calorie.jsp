@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Health Companion  | Technologies :: Health Companion</title>
+<title> Technologies</title>
 <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 <link href="css/pignose.layerslider.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
@@ -14,7 +14,7 @@
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Health Companion Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+<meta name="keywords" content="cut the sugar Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
@@ -123,6 +123,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	   </div>
 	</nav>
 	<!-- //header -->
+	
 	<section class="laboratory">
 			<div class="inner-banner demo-2 text-center">
 				<header class="logo">
@@ -130,17 +131,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</header>
 				<div id="breadcrumb_wrapper">
 					<div class="container">		
-						<h2>Calories in food</h2>
+						<h2>BMI</h2>
 						
 					</div>
 				</div>
+				         
 				         <table summary="This table is used for layout purposes only." style="margin:auto;" class="bmibkg" width="520"> 
 		
 						
                             
                               
                                       <tr>
-                                        <td width="150" style="text-align:right;"><b>Your Height:</b>&nbsp;</td>
+                                        <td width="150" style="text-align:right;color:white;"><b>Your Height:</b>&nbsp;</td>
                                         <td width="150" align="left"><input
 										type="text" name="htf" size="15" id="height_feet" /></td>
                                         <td width="150" align="left"><input
@@ -149,18 +151,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                       <tr>
                                         <td width="150"><span
 										style="font-size: 10pt;">&nbsp;</span></td>
-                                        <td width="150" align="left"><b>
-                                          <label
+                                        <td width="150" align="left" style="color:white;"><b>
+                                          <label 
 										for="height_feet">(feet)</label>
                                         </b></td>
-                                        <td width="150" align="left"><b>
+                                        <td width="150" align="left" style="color:white;"><b>
                                           <label
 										for="height_inches">(inches)</label>
                                         </b></td>
                                       </tr>
                                       
                                       <tr>
-                                        <td width="150" style="text-align:right;"><b>
+                                        <td width="150" style="text-align:right;color:white;"><b>
                                           <label for="your_weight">Your
                                             Weight:</label>
                                           &nbsp;</b></td>
@@ -170,10 +172,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                       <tr>
                                         <td width="150"><span
 										style="font-size: 10pt;">&nbsp;</span></td>
-                                        <td align="left" valign="top"><b>(pounds)</b></td>
+                                        <td align="left" valign="top" style="color:white;"><b>(pounds)</b></td>
+                                        <td></td>
                                       </tr>
                                       <tr>
-                                        <td colspan="15" align="center" class="colcenter" style="padding-top:5px;"><input type="button"
+                                        <td colspan="15" align="center" class="colcenter" style="padding-top:5px;color:black;"><input type="button"
 										value="Compute BMI" onClick="self.compute();" /></td>
                                       </tr>
                                       <tr>
@@ -182,7 +185,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                             <tr>
                                               <div style="margin-left: 55px; margin-top: -3px">
                                                   <label for="yourbmi"><span
-												  style="font-size: .9em; font-weight:bold;"> Your
+												  style="font-size: .9em; font-weight:bold;color:white;"> Your
                                                     BMI:</span></label>
                                                   <br />
                                                   <input name="bmi" type="text" size="16" id="yourbmi"
@@ -320,7 +323,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="copy-right-grids">
 				<div class="container">
 					<div class="copy-left">
-							<p class="footer-gd">© 2018 Cut The Sugar. All Rights Reserved<!--  | Design by <a href="https://Health Companion.com/" target="_blank">Health Companion </a> --></p>
+							<p class="footer-gd">Â© 2018 Cut The Sugar. All Rights Reserved<!--  | Design by <a href="https://Health Companion.com/" target="_blank">Health Companion </a> --></p>
 					</div>
 					
 					</div>
