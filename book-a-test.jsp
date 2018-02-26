@@ -1,21 +1,19 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-    <%@page import="java.sql.*"%>
 <!DOCTYPE html>
 <html>
 <head>
-<title>Health Companion  | Book-a-Test :: Health Companion</title>
+<title>Cut The Sugar  | Home :: Cut The Sugar</title>
 <link href="css/pignose.layerslider.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/gallery.css" rel="stylesheet" type="text/css" media="all" /> <!-- gallery css -->
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Health Companion Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+<meta name="keywords" content="cut the sugar Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- //for-mobile-apps -->
+
 <!--fonts-->
 <link href='//fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
@@ -44,7 +42,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				});
 			//]]>
 			</script>
-		<!-- /js for news -->
+		
 		
 		<!-- for smooth scrolling -->
 		<script type="text/javascript" src="js/move-top.js"></script>
@@ -58,68 +56,71 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		});
 		</script>
 		<!-- //for smooth scrolling -->
-</head>
+	<!-- for easy-responsive-tabs -->	  
+		<link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css " />
+		<script src="js/easyResponsiveTabs.js"></script>
+		<script type="text/javascript">
+    $(document).ready(function() {
+        //Horizontal Tab
+        $('#parentHorizontalTab').easyResponsiveTabs({
+            type: 'default', //Types: default, vertical, accordion
+            width: 'auto', //auto or any width like 600px
+            fit: true, // 100% fit in a container
+            tabidentify: 'hor_1', // The tab groups identifier
+            activate: function(event) { // Callback function if tab is switched
+                var $tab = $(this);
+                var $info = $('#nested-tabInfo');
+                var $name = $('span', $info);
+                $name.text($tab.text());
+                $info.show();
+            }
+        });
+
+        // Child Tab
+        $('#ChildVerticalTab_1').easyResponsiveTabs({
+            type: 'vertical',
+            width: 'auto',
+            fit: true,
+            tabidentify: 'ver_1', 
+            activetab_bg: '#fff', 
+            inactive_bg: '#F5F5F5', 
+            active_border_color: '#c1c1c1', 
+            active_content_border_color: '#5AB1D0' 
+            });
+
+        //Vertical Tab
+        $('#parentVerticalTab').easyResponsiveTabs({
+            type: 'vertical', 
+            width: 'auto', 
+            fit: true, 
+            closed: 'accordion', 
+            tabidentify: 'hor_1', 
+            activate: function(event) { 
+                var $tab = $(this);
+                var $info = $('#nested-tabInfo2');
+                var $name = $('span', $info);
+                $name.text($tab.text());
+                $info.show();
+            }
+        });
+    });
+		</script>
+		                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </head>
 <body>
-	<!-- header -->
-	<div class="top-strip">
-		<div class="container-fluid">
-			<div class="social-icons">
-				<a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
-				<a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-				<!-- <a class="pinterest" href="#"><i class="fa fa-pinterest-p"></i></a> -->
-				<a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-			<!-- 	<a class="tumblr" href="#"><i class="fa fa-tumblr"></i></a> -->
-			<a class="tumblr" href="#"><i class="fa fa-google-plus"></i></a>
-			</div>
-			<div class="contact-info">
-				<ul>
-					<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+91-9924324876</li>
-					<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:parthpatel@gmail.com">jimmypatel06@gmail.com</a></li>
-					
-				</ul>
-				<ul>
-				<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+91-9712936872</li>
-					<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:parthpatel@gmail.com">pdpatel1301@gmail.com</a></li>
-					</ul>
-			</div>
+	
 			
-			<!--  packkage model -->
-			<!-- Large modal -->
-			<div class="selectpackage">
-				<button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Our Package</button>
-					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-						<div class="modal-dialog modal-lg">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-										&times;</button>
-									<h4 class="modal-title package-title" id="myModalLabel">
-										PREVENTIVE HEALTH CHECK UP PACKAGE</h4>
-								</div>
-								<div class="modal-body packages">
-									<div class="col-md-4 text-center modal-align">
-										<div class="package">
-											<p>A set of basic tests that can give a broad overview of your health status.</p>
-											<i class="fa fa-heartbeat"></i>
-											<h4>MASTER HEALTH CHECK</h4>
-											<a href="book-a-test.jsp">Book Now</a>
-										</div>
-									</div>
-									
-									<div class="clearfix"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				<script>
-				$('#myModal').modal('');
-				</script>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
 	<nav class="navbar nav_bottom" role="navigation">
 	 <div class="container">
+	 <!-- Brand and toggle get grouped for better mobile display -->
+	   <div class="navbar-header nav_2">
+		  <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">Menu
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="#"></a>
+	   </div> 
 	 <!-- Brand and toggle get grouped for better mobile display -->
 	   <div class="navbar-header nav_2">
 		  <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">Menu
@@ -133,44 +134,39 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	   <!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 			<ul class="nav navbar-nav nav_1">
-				<li><a href="index.jsp">Home</a></li>
-				<li><a href="about.jsp">About</a></li>
+				<li class="current_page"><a href="index.jsp">Home</a></li>
 				<li class="dropdown">
-				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lab<span class="caret"></span></a>
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Diabetes<span class="caret"></span></a>
 				  <ul class="dropdown-menu drop_menu" role="menu">
-					<li><a href="laboratory.jsp">About Lab</a></li>
+					<li><a href="type1.jsp">Type 1</a></li>
 					
-					<li><a href="technologies.jsp">Technologies</a></li>
-					<li><a href="instruments.jsp">Instruments</a></li>
-				  </ul>
-				</li>				
-				<li class="dropdown current_page">
-				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Book Test<span class="caret"></span></a>
-				  <ul class="dropdown-menu drop_menu" role="menu">
-					<li><a href="book-a-test.jsp">Book a Test</a></li>
-					<li><a href="test-list.jsp">Test Menu</a></li>
+					<li><a href="type2.jsp">Type 2</a></li>
+					<li><a href="history.jsp">Diabetes History</a></li>
 				  </ul>
 				</li>
 				<li class="dropdown">
-				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Opportunity<span class="caret"></span></a>
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Food and Diabetes<span class="caret"></span></a>
 				  <ul class="dropdown-menu drop_menu" role="menu">
+					<li><a href="diabeticfood.jsp">Diabetic Food</a></li>
+					<li><a href="calorie.jsp">Calculate BMI</a></li>
+					<li><a href="calculator.jsp">Calorie Calculator</a></li>
 					
-					<li><a href="chat.jsp">Chat with us</a></li>
 				  </ul>
 				</li>
 				<li class="dropdown">
-				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Info<span class="caret"></span></a>
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Treatment and Medications<span class="caret"></span></a>
 				  <ul class="dropdown-menu drop_menu" role="menu">
+					<li><a href="treatment.jsp">Treatments</a></li>
+					<li><a href="drugs.jsp">Oral Drugs</a></li>
+					<li><a href="book-a-test.jsp">book appointment</a></li>
+					<li><a href="book-a-test.jsp">Exercise</a></li>
+					</ul>
+					</li>
 					
-					<li><a href="faq.jsp">Faq</a></li>
-					
-					<li><a href="login.jsp">Login</a></li>
-					
-				  </ul>
-				</li>
+				<li><a href="login.jsp">Login</a></li>
 				
-				<li><a href="contact.jsp">Contact</a></li>
-			</ul>
+				</ul>
+			
 		 </div><!-- /.navbar-collapse -->
 	   </div>
 	</nav>
@@ -179,7 +175,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<section class="book-a-test">
 			<div class="inner-banner demo-2 text-center">
 				<header class="logo">
-					<h1><a class="cd-logo link link--takiri" href="index.jsp">Health Companion <span>is better than cure.</span></a></h1>
+					<h1><a class="cd-logo link link--takiri" href="index.jsp">Cut The Sugar <span>is better than cure.</span></a></h1>
 				</header>
 				<div id="breadcrumb_wrapper">
 					<div class="container">		
@@ -195,18 +191,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h3> APPOINTMENT BOOKING</h3>
 					<p>Book appoinment here.</p>
 				</div>
-				<!-- <div class="col-md-3 appointment-right">
-					<a href="#" class="btn btn-default btn-default_2 pull-left" data-toggle="modal" data-target="#applyModal_1">book your appointment</a>
-					<div class="modal fade" id="applyModal_1" tabindex="-1" role="dialog" aria-labelledby="applyModalLabel" aria-hidden="true">
-				  	<div class="modal-dialog dialog_3">
-				    	<div class="modal-content">
-					      	<div class="modal-header">
-					        	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-					        	<h4 class="modal-title" id="myModalLabel"><div class="head_4">
-			                         <h3>Make An appointment Now</h3>
-									 <p>Cann't wait now, Goahead to book appointment</p>
-			                        </div></h4>
-					      	</div> -->
+				
 							<div class="modal-body">
 								<form name="row" method="post" class="register" action="AppointmentController">
                                  
@@ -244,58 +229,35 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		
 		<!-- //Book-a-test-section -->
 				
-		<!-- footer -->
+			<!-- footer -->
 		<footer>
 			<div class="footer-grids">
 				<div class="container">
 					<div class="col-md-3 footer one">
 						<h3>About US</h3>
-						<p> We believe in providing better services to our clients , We are provide service to pataient and get there report easily </p>
+						<p>.... </p>
 						<p class="adam">---</p>
 						<div class="clear"></div>
 					</div>
-					<div class="col-md-3 footer one tweet">
-						<h3>Tweets</h3>
-						<ul>
-							<li>
-								<a href="#">Ossum services.
-								<i>http//jimmy.com</i></a>
-								<span>About 15 minutes ago<span>
-							</span></span></li>
-							<li>
-								<a href="#"> Best services give to client , can easily get help.
-								<i>http//jimmy.com</i></a>
-								<span>About a day ago<span>
-							</span></span></li>
-						</ul>
-					</div>
-					<div class="col-md-3 footer two">
-						<h3>Keep Connected</h3>
-						<ul>
-							<li><a class="fb" href="#"><i class="fa fa-facebook"></i>Like us on Facebook</a></li>
-							<li><a class="fb1" href="#"><i class="fa fa-twitter"></i>Follow us on Twitter</a></li>
-							<li><a class="fb2" href="#"><i class="fa fa-google-plus"></i>Add us on Google Plus</a></li>
-							<!-- <li><a class="fb3" href="#"><i class="fa fa-dribbble"></i>Follow us on Dribbble</a></li>
-							<li><a class="fb4" href="#"><i class="fa fa-pinterest-p"></i>Follow us on Pinterest</a></li>
-					 -->	</ul>
-					</div>
+					
 					<div class="col-md-3 footer three">
 						<h3>Contact Information</h3>
 						<ul>
-							<li><i class="fa fa-map-marker"></i><p>shiv complex, <span>Rambaugh Road,
-Maninagar,</span> Ahmedabad </p><div class="clearfix"></div> </li>
-							<li><i class="fa fa-phone"></i><p>
-    079-27455550</p> <div class="clearfix"></div> </li>
+							
 							<li><i class="fa fa-envelope-o"></i><a href="mailto:parthpatel@gmail.com ">
-    jimmypatel@gmail.com 
+    jimmypatel106@gmail.com 
 
 </a> <div class="clearfix"></div></li>
 						</ul>
 						<ul>
-							<li><i class="fa fa-map-marker"></i><p>Radhe complex, <span>Rambaugh Road,
-Maninagar,</span> Ahmedabad </p><div class="clearfix"></div> </li>
-							<li><i class="fa fa-phone"></i><p>
-    +91-9712936872</p> <div class="clearfix"></div> </li>
+							
+							<li><i class="fa fa-envelope-o"></i><a href="mailto:parthpatel@gmail.com ">
+    sagar98p@gmail.com 
+
+</a> <div class="clearfix"></div></li>
+						</ul>
+						<ul>
+							
 							<li><i class="fa fa-envelope-o"></i><a href="mailto:parthpatel@gmail.com ">
     pdpatel1301@gmail.com 
 
@@ -305,18 +267,20 @@ Maninagar,</span> Ahmedabad </p><div class="clearfix"></div> </li>
 					<div class="clearfix"></div>
 				</div>
 			</div>
-			
+			<
 			<div class="copy-right-grids">
 				<div class="container">
 					<div class="copy-left">
-							<p class="footer-gd">© 2016 Health Companion. All Rights Reserved<!--  | Design by <a href="https://Health Companion.com/" target="_blank">Health Companion </a> --></p>
+							<p class="footer-gd">Â© 2018 Cut The Sugar. All Rights Reserved<!--  | Design by <a href="https://Health Companion.com/" target="_blank">Health Companion </a> --></p>
 					</div>
 					
+					</div>
 					<div class="clearfix"></div>
 				</div>
 			</div>
 		</footer>
-	<!-- //footer -->
+
+		<!-- //footer -->
 		<script type="text/javascript">
 						$(document).ready(function() {
 							/*
