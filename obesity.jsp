@@ -232,7 +232,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				  	<div class="modal-dialog dialog_3">
 				    	<div class="modal-content">
 					      	<div class="modal-header">
-					        	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+					        	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">Ã—</span></button>
 					        	<h4 class="modal-title" id="myModalLabel"><div class="head_4">
 			                         <h3>Make An appointment Now</h3>
 									 <p>connect with us</p>
@@ -309,7 +309,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="copy-right-grids">
 				<div class="container">
 					<div class="copy-left">
-							<p class="footer-gd">© 2018 Cut The Sugar. All Rights Reserved<!--  | Design by <a href="https://Health Companion.com/" target="_blank">Health Companion </a> --></p>
+							<p class="footer-gd">Â© 2018 Cut The Sugar. All Rights Reserved<!--  | Design by <a href="https://Health Companion.com/" target="_blank">Health Companion </a> --></p>
 					</div>
 					
 					</div>
@@ -335,5 +335,5 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						});
 					</script>
 				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-</body>
+</body> 
 </html>
