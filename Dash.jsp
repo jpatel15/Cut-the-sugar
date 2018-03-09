@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html>
+<html> 
 <head>
 <title>Cut The Sugar  | User :: Dash Board</title>
 <link href="css/pignose.layerslider.css" rel="stylesheet" type="text/css" media="all" />
