@@ -4,7 +4,7 @@
 <%!
 public boolean empty(String s)
 	{
-		if(s== null || s.trim().equals(""))
+		if(s== null || s.trim().equals("")) 
 			return true;
 		else
 			return false;
