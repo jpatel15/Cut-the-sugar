@@ -1,6 +1,6 @@
 /*
 SQLyog Ultimate v11.11 (64 bit)
-MySQL - 5.5.47 : Database - cut
+MySQL - 5.5.47 : Database - cut 
 *********************************************************************
 */
 
