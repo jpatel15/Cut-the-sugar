@@ -2,7 +2,7 @@
     pageEncoding="ISO-8859-1"%>
 
 <!DOCTYPE html>
-<html>
+<html> 
 <head>
 <title></title>
 <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
