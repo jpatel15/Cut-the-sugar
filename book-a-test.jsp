@@ -1,16 +1,41 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
-<html>
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+
+<!-- Mirrored from 188.226.173.21/globo/html/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Feb 2016 08:41:08 GMT -->
 <head>
-<title>Cut The Sugar  | Home :: Cut The Sugar</title>
-<link href="css/pignose.layerslider.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+<base href="${pageContext.request.contextPath }/user/">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Appointment</title>
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- GOOGLE FONTS -->
+<link
+	href='http://fonts.googleapis.com/css?family=Raleway:400,700,600,800%7COpen+Sans:400italic,400,600,700'
+	rel='stylesheet' type='text/css'>
+
+
+<!--[if IE 9]>
+    <script src="js/media.match.min.js"></script>
+  <![endif]-->
+  
+  
+  
+  <link href="css/css/pignose.layerslider.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
+<link href="css/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="cut the sugar Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+<meta name="keywords" content="Health Companion Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 
@@ -19,17 +44,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
 <!--//fonts-->	
 <!-- js -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/js/jquery.min.js"></script>
 <!-- js -->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/modernizr.custom.js"></script>
-<link rel="stylesheet" href="css/font-awesome.min.css" />
+<script src="js/js/bootstrap.min.js"></script>
+<script src="js/js/modernizr.custom.js"></script>
+<link rel="stylesheet" href="css/css/font-awesome.min.css" />
         <link rel="stylesheet" type="text/css" href="css/custom.css" />
-		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>		
+		<script type="text/javascript" src="js/js/modernizr.custom.79639.js"></script>		
 		<!-- js for news -->
-		<script src="js/jquery.easing.min.js"></script>
-		<script type="text/javascript" src="js/pignose.layerslider.js"></script>
+		<script src="js/js/jquery.easing.min.js"></script>
+		<script type="text/javascript" src="js/js/pignose.layerslider.js"></script>
 		<script type="text/javascript">
 			//<![CDATA[
 				$(window).load(function() {
@@ -45,8 +70,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		
 		
 		<!-- for smooth scrolling -->
-		<script type="text/javascript" src="js/move-top.js"></script>
-		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript" src="js/js/move-top.js"></script>
+		<script type="text/javascript" src="js/js/easing.js"></script>
 		<script type="text/javascript">
 		jQuery(document).ready(function($) {
 			$(".scroll").click(function(event){		
@@ -57,8 +82,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</script>
 		<!-- //for smooth scrolling -->
 	<!-- for easy-responsive-tabs -->	  
-		<link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css " />
-		<script src="js/easyResponsiveTabs.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/css/easy-responsive-tabs.css " />
+		<script src="js/js/easyResponsiveTabs.js"></script>
 		<script type="text/javascript">
     $(document).ready(function() {
         //Horizontal Tab
@@ -105,110 +130,73 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         });
     });
 		</script>
-		                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </head>
-<body>
-	
-			
-	<nav class="navbar nav_bottom" role="navigation">
-	 <div class="container">
-	 <!-- Brand and toggle get grouped for better mobile display -->
-	   <div class="navbar-header nav_2">
-		  <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">Menu
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		  </button>
-		  <a class="navbar-brand" href="#"></a>
-	   </div> 
-	 <!-- Brand and toggle get grouped for better mobile display -->
-	   <div class="navbar-header nav_2">
-		  <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">Menu
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		  </button>
-		  <a class="navbar-brand" href="#"></a>
-	   </div> 
-	   <!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
-			<ul class="nav navbar-nav nav_1">
-				<li class="current_page"><a href="index.jsp">Home</a></li>
-				<li class="dropdown">
-				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Diabetes<span class="caret"></span></a>
-				  <ul class="dropdown-menu drop_menu" role="menu">
-					<li><a href="type1.jsp">Type 1</a></li>
-					
-					<li><a href="type2.jsp">Type 2</a></li>
-					<li><a href="history.jsp">Diabetes History</a></li>
-				  </ul>
-				</li>
-				<li class="dropdown">
-				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Food and Diabetes<span class="caret"></span></a>
-				  <ul class="dropdown-menu drop_menu" role="menu">
-					<li><a href="diabeticfood.jsp">Diabetic Food</a></li>
-					<li><a href="calorie.jsp">Calculate BMI</a></li>
-					<li><a href="calculator.jsp">Calorie Calculator</a></li>
-					
-				  </ul>
-				</li>
-				<li class="dropdown">
-				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Treatment and Medications<span class="caret"></span></a>
-				  <ul class="dropdown-menu drop_menu" role="menu">
-					<li><a href="treatment.jsp">Treatments</a></li>
-					<li><a href="drugs.jsp">Oral Drugs</a></li>
-					<li><a href="book-a-test.jsp">book appointment</a></li>
-					<li><a href="book-a-test.jsp">Exercise</a></li>
-					</ul>
-					</li>
-					
-				<li><a href="login.jsp">Login</a></li>
-				
-				</ul>
-			
-		 </div><!-- /.navbar-collapse -->
-	   </div>
-	</nav>
-	<!-- //header -->
-		<!-- Book-a-test-section -->
-		<section class="book-a-test">
-			<div class="inner-banner demo-2 text-center">
-				<header class="logo">
-					<h1><a class="cd-logo link link--takiri" href="index.jsp">Cut The Sugar <span>is better than cure.</span></a></h1>
-				</header>
-				<div id="breadcrumb_wrapper">
-					<div class="container">		
-						<h2>Book Your Test</h2>
+  
+</head>
 
-					</div>
-				</div>
-			</div>
-			<!-- book an appointment -->
-		<div class="appointment">
+
+<body>
+
+
+<div id="main-wrapper">
+
+		<jsp:include page="contactUsHeader.jsp"></jsp:include>
+
+		<div id="page-content">
 			<div class="container">
-				<div class="col-md-9 appointment-left">
-					<h3> APPOINTMENT BOOKING</h3>
-					<p>Book appoinment here.</p>
-				</div>
-				
-							<div class="modal-body">
-								<form name="row" method="post" class="register" action="AppointmentController">
-                                 
-                                    <input type="text" name="name" id="name" placeholder="Name" required="">
-                                    <input type="text" name="email_id" id="Email id" placeholder="Email id" required="">
-                                    <input type="text" name="mobile_number" id="Mobile Number" placeholder="Mobile Number" required="">
+				<div class="page-content">
+					<div class="contact-us">
+						<div class="row">
+							<!--  <div class="col-md-6">
+              
+            
+            
+
+							<div class="col-md-6">
+								
+								<div class="contact-form">
 									
-									
-									<input class="date" name="dateselect" id="datepicker" type="text" value="Appointment date" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Appointment date';}" required=>
-									
-								<textarea type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Message...';}" required="">Enter Message...</textarea>
-														
-        
-									<input type="submit" name="submit" onclick="myFunction()" value="Submit Now">
-								</form>
-							</div>
-							<!---start-date-piker---->
+								<div class="form-group">
+									<div class="l-box-body l-spaced">
+							<form action= "<%=request.getContextPath()%>/addFeedbackController" method="post" role="form" data-parsley-validate class="form-horizontal">
+										
+										<div class="form-group">
+									<label for="inputAlphanum" class="col-sm-3 control-label">Name</label>
+									<div class="col-sm-9">
+										<input  type="text" name="name"
+											data-parsley-type="alphanum" data-parsley-trigger="change"
+											data-parsley-required required="" placeholder=""
+											class="form-control">
+									</div>
+								</div>
+										<div class="form-group">
+									<label for="inputAlphanum" class="col-sm-3 control-label">Email</label>
+									<div class="col-sm-9">
+										<input id="inputAlphanum" type="text" name="email"
+											data-parsley-type="alphanum" data-parsley-trigger="change"
+											data-parsley-required required="" placeholder=""
+											class="form-control">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputAlphanum" class="col-sm-3 control-label">Number</label>
+									<div class="col-sm-9">
+										<input id="inputAlphanum" type="text" name="subject"
+											data-parsley-type="alphanum" data-parsley-trigger="change"
+											data-parsley-required required="" placeholder=""
+											class="form-control">
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label for="inputAlphanum" class="col-sm-3 control-label">Date</label>
+									<div class="col-sm-9">
+										<input id="datepicker" type="text" name="appdate"
+											onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Appointment date';}"" 
+												data-parsley-type="alphanum" data-parsley-trigger="change"
+													data-parsley-required required="" placeholder=""
+											class="form-control">
+									</div>
+								</div>
 								<link rel="stylesheet" href="css/jquery-ui.css" />
 								<script src="js/jquery-ui.js"></script>
 									<script>
@@ -216,86 +204,115 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										$( "#datepicker" ).datepicker();
 										});
 									</script>
-							<!---/End-date-piker---->
-                     </div>
-		         </div>
-		     </div>
+										
+								<div class="form-group">
+									<label for="inputAlphanum" class="col-sm-3 control-label"> Message</label>
+									<div class="col-sm-9">
+										<input id="inputAlphanum" type="text" name="message"
+											data-parsley-type="alphanum" data-parsley-trigger="change"
+											data-parsley-required required="" placeholder=""
+											class="form-control">
+									</div>
+								</div>							
+								
+								<div class="form-group">
+									<div class="col-sm-offset-3 col-sm-9">
+										<button type="submit" class="btn btn-dark">Submit</button>
+										<input type="hidden" name="flag" value="insert"	>
+									</div>
+								</div>
+							</form>
+						</div>
+							<!---start-date-piker---->
+								
+									<!-- <label for="inputAlphanum" class="col-sm-3 control-label">Name</label>
+									<div class="col-sm-9">
+										<input  type="text" name="name"
+											data-parsley-type="alphanum" data-parsley-trigger="change"
+											data-parsley-required required="" placeholder=""
+											class="form-control">
+									</div>
+									
+								</div> -->
+								
+								<!-- <div class="form-group">
+									
+									<label for="inputAlphanum" class="col-sm-3 control-label">Email</label>
+									<div class="col-sm-9">
+										<input  type="email" name="email"
+											data-parsley-type="alphanum" data-parsley-trigger="change"
+											data-parsley-required required="" placeholder=""
+											class="form-control">
+									</div>
+									
+								</div>
+								<div class="form-group">	
+									<label for="inputAlphanum" class="col-sm-3 control-label">Mobile Number</label>
+									<div class="col-sm-9">
+										<input id="inputAlphanum" type="integer" name="mob_number"
+											data-parsley-type="alphanum" data-parsley-trigger="change"
+											data-parsley-required required="" placeholder=""
+											class="form-control">
+									</div>
+									
+								</div>
+						
+										
+								<div class="form-group">
+									<label for="inputAlphanum" class="col-sm-3 control-label">Date</label>
+									<div class="col-sm-9">
+										<input id="datepicker" type="text" class="date" name="appdate"
+											data-parsley-type="alphanum" data-parsley-trigger="change"
+											data-parsley-required required="" placeholder=""
+											class="form-control">
+									</div>
+								</div>		
+								
+								
+								<div class="form-group">
+									<label for="inputAlphanum" class="col-sm-3 control-label">Message</label>
+									<div class="col-sm-9">
+										<input id="inputAlphanum" type="text" name="message"
+											data-parsley-type="alphanum" data-parsley-trigger="change"
+											data-parsley-required required="" placeholder=""
+											class="form-control">
+									</div>
+								</div>							 -->
+								<!-- <div class="form-group">
+									<div class="col-sm-offset-3 col-sm-9">
+										<button type="submit" class="btn btn-dark">Submit</button>
+										<input type="hidden" name="flag" value="insert"	>
+									</div>
+								</div> -->
+							</form>
+
+								</div>
+								<!-- end .contact-form -->
+								
+							</div>
+							<!-- end main grid layout -->
+						</div>
+						
+						<!-- end .row -->
+
+					</div>
+					<!-- end .about-us -->
 				</div>
-				<div class="clearfix"></div>
+				<!-- end .page-content -->
 			</div>
+			<!-- end .container -->
+
 		</div>
-		<!-- //book an appointment -->
-		</section>
+		<!-- end #page-content -->
 		
-		<!-- //Book-a-test-section -->
-				
-			<!-- footer -->
-		<footer>
-			<div class="footer-grids">
-				<div class="container">
-					<div class="col-md-3 footer one">
-						<h3>About US</h3>
-						<p>.... </p>
-						<p class="adam">---</p>
-						<div class="clear"></div>
-					</div>
-					
-					<div class="col-md-3 footer three">
-						<h3>Contact Information</h3>
-						<ul>
-							
-							<li><i class="fa fa-envelope-o"></i><a href="mailto:parthpatel@gmail.com ">
-    jimmypatel106@gmail.com 
 
-</a> <div class="clearfix"></div></li>
-						</ul>
-						<ul>
-							
-							<li><i class="fa fa-envelope-o"></i><a href="mailto:parthpatel@gmail.com ">
-    sagar98p@gmail.com 
 
-</a> <div class="clearfix"></div></li>
-						</ul>
-						<ul>
-							
-							<li><i class="fa fa-envelope-o"></i><a href="mailto:parthpatel@gmail.com ">
-    pdpatel1301@gmail.com 
+		<jsp:include page="footer.jsp"></jsp:include>
+	</div>
+	
+	
 
-</a> <div class="clearfix"></div></li>
-						</ul>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-			</div>
-			<
-			<div class="copy-right-grids">
-				<div class="container">
-					<div class="copy-left">
-							<p class="footer-gd">© 2018 Cut The Sugar. All Rights Reserved<!--  | Design by <a href="https://Health Companion.com/" target="_blank">Health Companion </a> --></p>
-					</div>
-					
-					</div>
-					<div class="clearfix"></div>
-				</div>
-			</div>
-		</footer>
 
-		<!-- //footer -->
-		<script type="text/javascript">
-						$(document).ready(function() {
-							/*
-							var defaults = {
-					  			containerID: 'toTop', // fading element id
-								containerHoverID: 'toTopHover', // fading element hover id
-								scrollSpeed: 1200,
-								easingType: 'linear' 
-					 		};
-							*/
-							
-							$().UItoTop({ easingType: 'easeOutQuart' });
-							
-						});
-					</script>
-				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-</body> 
-</html> 
+
+</body>
+</html>
