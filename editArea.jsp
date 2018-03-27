@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%> 
 <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core_rt"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
@@ -277,7 +277,7 @@
 	<!--FOOTER--> <footer class="l-footer l-footer-1 t-footer-1">
 	<div class="group pt-10 pb-10 ph">
 		<div class="copyright pull-left">
-			© Copyright 2015 <a href="#">Proteus.</a> Powered by <a href="#">LoxDesign.</a>
+			Â© Copyright 2015 <a href="#">Proteus.</a> Powered by <a href="#">LoxDesign.</a>
 			All rights reserved.
 		</div>
 		<div class="version pull-right">v 1.0</div>
